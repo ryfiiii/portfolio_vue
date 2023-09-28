@@ -3,10 +3,10 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#profile">Profile</a></li>
-                    <li><a href="#skill">Skill</a></li>
-                    <li><a href="#creation">Creation</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#profile" v-smooth-scroll>Profile</a></li>
+                    <li><a href="#skill" v-smooth-scroll>Skill</a></li>
+                    <li><a href="#creation" v-smooth-scroll>Creation</a></li>
+                    <li><a href="#contact" v-smooth-scroll>Contact</a></li>
                 </ul>
             </nav>
         </header>
