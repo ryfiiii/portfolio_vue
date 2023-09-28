@@ -1,25 +1,29 @@
 <template>
-    <div class="production">
-        <a :href="url" target="_blank" rel="noopener noreferrer">
-            <img :src="image">
-        </a>
-        <div class="text">
-            <h2>
-                <a :href="url" target="_blank" rel="noopener noreferrer">{{ title }}</a> 
-                <span>
-                    <a :href="github" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
-                </span>
-            </h2>
-            <p>{{ body }}</p>
-            <p>{{ body2 }}</p>
-            <div class="skill">
-                <span v-for="skill in skills" :key="skill">{{ skill }}</span>
+    <FadeIn>
+        <div class="production">
+            <a :href="url" target="_blank" rel="noopener noreferrer">
+                <img :src="image">
+            </a>
+            <div class="text">
+                <h2>
+                    <a :href="url" target="_blank" rel="noopener noreferrer">{{ title }}</a>
+                    <span>
+                        <a :href="github" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    </span>
+                </h2>
+                <p>{{ body }}</p>
+                <p>{{ body2 }}</p>
+                <div class="skill">
+                    <span v-for="skill in skills" :key="skill">{{ skill }}</span>
+                </div>
             </div>
         </div>
-    </div>
+    </FadeIn>
 </template>
 
 <script setup lang="ts">
+import FadeIn from "@/components/FadeIn.vue"
+
 const props = defineProps<{
     image: string,
     title: string,
@@ -76,6 +80,7 @@ const props = defineProps<{
             display: flex;
             justify-content: center;
             margin-top: 20px;
+
             span {
                 display: block;
                 background-color: #ccc;
