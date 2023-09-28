@@ -1,6 +1,6 @@
 <template>
     <section id="splash">
-        <h1>Ryunosuke's PortFolio</h1>
+        <h1 class="animated__animate animate__bounceIn animate__slow">Ryunosuke's PortFolio</h1>
     </section>
 </template>
 
