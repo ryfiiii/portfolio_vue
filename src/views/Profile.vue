@@ -1,21 +1,18 @@
 <template>
-    <FadeIn>
-        <section id="profile">
-            <div class="about">
-                <img src="https://picsum.photos/500/500" alt="">
-                <div class="text">
-                    <h1>Ryunosuke</h1>
-                    <p>文系未経験から、Webエンジニアとして、様々な技術を勉強中です。</p>
-                    <p>PHP(Laravel)を主に勉強していますが、フロントエンドにも興味があります。</p> 
-                    <p>Githubにアプリの詳細な説明とソースコードを載せているので、ぜひ一度閲覧ください。</p>
-                </div>
+    <section id="profile">
+        <div class="about">
+            <img src="https://picsum.photos/500/500" alt="">
+            <div class="text">
+                <h1>Ryunosuke</h1>
+                <p>文系未経験から、Webエンジニアとして、様々な技術を勉強中です。</p>
+                <p>PHP(Laravel)を主に勉強していますが、フロントエンドにも興味があります。</p> 
+                <p>Githubにアプリの詳細な説明とソースコードを載せているので、ぜひ一度閲覧ください。</p>
             </div>
-        </section>
-    </FadeIn>
+        </div>
+    </section>
 </template>
 
 <script setup lang="ts">
-import FadeIn from "@/components/FadeIn.vue"
 </script>
 
 <style scoped lang="scss">
