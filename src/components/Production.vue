@@ -34,8 +34,6 @@ const props = defineProps<{
 <style scoped lang="scss">
 .production {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 1100px;
     height: 270px;
     border-radius: 10px;
@@ -47,13 +45,16 @@ const props = defineProps<{
         width: 400px;
         height: 270px;
         object-fit: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-right: 1px solid #ccc;
     }
 
     .text {
         display: flex;
         justify-content: center;
-        align-items: center;
         flex-direction: column;
+        margin-left: 30px;
 
         h2 {
             font-size: 1.7rem;
@@ -61,6 +62,7 @@ const props = defineProps<{
             margin: 25px 0;
 
             i {
+                text-align: center;
                 margin-left: 10px;
             }
         }
@@ -72,6 +74,7 @@ const props = defineProps<{
 
         .skill {
             display: flex;
+            justify-content: center;
             margin-top: 20px;
             span {
                 display: block;
@@ -81,6 +84,11 @@ const props = defineProps<{
                 border-radius: 20px;
             }
         }
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        transition: all 0.4s;
     }
 }
 </style>

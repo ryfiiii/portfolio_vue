@@ -28,12 +28,20 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
-                            <label for="company">メールアドレス<span> *</span></label>
-                            <input type="mail" id="company" name="" required>
+                            <label for="mail">メールアドレス<span> *</span></label>
+                            <input type="mail" id="mail" name="email" required>
                         </div>
                     </div>
                 </div>
-                
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="contents">内容<span> *</span></label>
+                            <textarea name="contents" id="contents"></textarea>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="btn-container">
                     <input type="submit" value="送信">
                 </div>
@@ -48,98 +56,112 @@
 
 <style scoped lang="scss">
 #contact {
-    height: 100vh;
+    height: 100%;
     background: url("../assets/images/contact.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 30px 0;
 
     h1 {
         font-size: 1.8rem;
         color: white;
         text-align: center;
+        margin-bottom: 30px;
     }
 }
 
 form {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-
-  .row {
-    display: flex;
-    justify-content: space-between;
-
-    .col {
-      flex: 1;
-
-      &:not(:last-child) {
-        margin-right: 10px; // Adjust the gap between columns
-      }
-
-      .form-group {
-        margin-bottom: 15px;
-
-        label {
-          display: block;
-          margin-bottom: 5px;
-          font-weight: bold;
-
-          span {
-            color: red;
-          }
-        }
-
-        input {
-          width: 100%;
-          padding: 10px;
-          box-sizing: border-box;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          background-color: #f9f9f9;
-          font-size: 16px;
-        }
-
-        input[type="text"]:required,
-        input[type="email"]:required {
-          background-color: #f9f9f9; // Change background color for required fields
-        }
-      }
-    }
-  }
-
-  textarea {
+    background-color: #ccc;
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #f9f9f9;
-    font-size: 16px;
-    margin-bottom: 15px;
-    resize: vertical;
-  }
+    max-width: 1000px;
+    padding: 70px 80px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
-  .btn-container {
-    display: flex;
-    justify-content: center;
 
-    input[type="submit"] {
-      background-color: #007bff;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background-color 0.3s;
+    .row {
+        display: flex;
+        justify-content: space-between;
 
-      &:hover {
-        background-color: #0056b3;
-      }
+        .col {
+            flex: 1;
+
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+
+            .form-group {
+                margin-bottom: 15px;
+
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                    font-weight: bold;
+
+                    span {
+                        color: red;
+                    }
+                }
+
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    border-radius: 4px;
+                    background-color: #f9f9f9;
+                    font-size: 16px;
+                    outline: none;
+                    border: 3px solid #ccc;
+
+                    &:focus {
+                        border: 3px solid blue;
+                    }
+                }
+            }
+        }
     }
-  }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        font-size: 16px;
+        margin-bottom: 15px;
+        resize: vertical;
+        outline: none;
+
+        &:focus {
+            border: 3px solid blue;
+        }
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
 }
-
-
-
 </style>

@@ -137,9 +137,11 @@ import Gauge from "@/components/Gauge.vue"
         h1 {
             text-align: center;
             color: white;
+            margin: 50px 0 10px 0;
         }
         
         .skill-section {
+            max-width: 1400px;
             display: flex;
             justify-content: center;
             align-items: center;

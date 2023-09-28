@@ -1,23 +1,26 @@
 <template>
-    <section id="profile">
-        <div class="about">
-            <img src="https://picsum.photos/500/500" alt="">
-            <div class="text">
-                <h1>Ryunosuke</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, maxime sit quas repellendus
-                    voluptas repudiandae est, placeat consequuntur vitae dicta et iusto fugit! Sint illum quia ut
-                    repudiandae, tenetur recusandae.</p>
+    <FadeIn>
+        <section id="profile">
+            <div class="about">
+                <img src="https://picsum.photos/500/500" alt="">
+                <div class="text">
+                    <h1>Ryunosuke</h1>
+                    <p>文系未経験から、Webエンジニアとして、様々な技術を勉強中です。</p>
+                    <p>PHP(Laravel)を主に勉強していますが、フロントエンドにも興味があります。</p> 
+                    <p>Githubにアプリの詳細な説明とソースコードを載せているので、ぜひ一度閲覧ください。</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </FadeIn>
 </template>
 
 <script setup lang="ts">
+import FadeIn from "@/components/FadeIn.vue"
 </script>
 
 <style scoped lang="scss">
 #profile {
-    height: 100vh;
+    height: 500px;
     position: relative;
     display: flex;
     justify-content: center;

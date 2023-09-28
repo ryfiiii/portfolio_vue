@@ -4,7 +4,7 @@
         <div class="gallery">
             <div class="creation-section">
                 <Production 
-                    :image="PicShare2" 
+                    :image="PicShare" 
                     :title="'PicShare'" 
                     :body="'ログイン機能、文章・画像・タグ投稿機能、タグ検索機能、投稿編集・削除機能を実装した簡易版Instagram。'" 
                     :body2="'読みやすいコードを意識しコーディングしました。また、デプロイまで自分で行った初めてのアプリです。'"
@@ -57,11 +57,11 @@
 import Production from "@/components/Production.vue"
 
 //写真インポート
-import PicShare2 from "@/assets/images/creation/PicShare2.jpg"
-import Sample_inc from "@/assets/images/creation/sample_inc.jpg"
+import PicShare from "@/assets/images/creation/PicShare.png"
+import Sample_inc from "@/assets/images/creation/SampleInc.png"
 import BlogSite from "@/assets/images/creation/RyuBlog.png"
-import WeatherApp from "@/assets/images/creation/WeatherApp.jpg"
-import RestApi from "@/assets/images/creation/restful-api.png"
+import WeatherApp from "@/assets/images/creation/WeatherApp.png"
+import RestApi from "@/assets/images/creation/RestfulApi.png"
 </script>
 
 <style scoped lang="scss">
