@@ -159,6 +159,11 @@ import Gauge from "@/components/Gauge.vue"
                 margin-top: 20px;
                 padding: 10px 35px;
                 box-shadow: 0px 10px 18px -3px #777777;
+                transition: transform 0.4s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
 
                 .text {
                     display: flex;

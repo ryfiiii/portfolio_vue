@@ -3,10 +3,10 @@
         <header>
             <nav>
                 <ul>
-                    <li>Profile</li>
-                    <li>Skill</li>
-                    <li>Creation</li>
-                    <li>Contact</li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#creation">Creation</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,10 +34,18 @@ header {
 
             li {
                 list-style: none;
-                margin-right: 10px;
 
                 &:last-child {
-                    margin-right: 80px;
+                    margin-right: 60px;
+                }
+
+                a {
+                    text-decoration: none;
+                    padding: 12px 15px;
+
+                    &:hover {
+                        background-color: #ffffff6e;
+                    }
                 }
             }
         }
