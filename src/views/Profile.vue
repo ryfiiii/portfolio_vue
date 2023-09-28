@@ -1,7 +1,7 @@
 <template>
     <section id="profile">
         <div class="about">
-            <img src="https://picsum.photos/500/500" alt="">
+            <img src="../assets/images/apple.jpg" alt="">
             <FadeIn>
                 <div class="text">
                     <h1>Ryunosuke</h1>
