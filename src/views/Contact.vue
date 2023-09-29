@@ -1,59 +1,56 @@
 <template>
     <section id="contact">
-        <FadeIn>
-            <h1>Contact</h1>
-            <div class="form">
-                <form action="https://formspree.io/f/xaygjdpp" method="POST">
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="sei">姓<span> *</span></label>
-                                <input type="text" id="sei" name="first_name" required>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="mei">名<span> *</span></label>
-                                <input type="text" id="mei" name="last_name" required>
-                            </div>
+        <h1>Contact</h1>
+        <div class="form">
+            <form action="https://formspree.io/f/xaygjdpp" method="POST">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="sei">姓<span> *</span></label>
+                            <input type="text" id="sei" name="first_name" required>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="company">会社名</label>
-                                <input type="text" id="company" name="company">
-                            </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="mei">名<span> *</span></label>
+                            <input type="text" id="mei" name="last_name" required>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="mail">メールアドレス<span> *</span></label>
-                                <input type="mail" id="mail" name="email" required>
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="company">会社名</label>
+                            <input type="text" id="company" name="company">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="form-group">
-                                <label for="contents">内容<span> *</span></label>
-                                <textarea name="contents" id="contents"></textarea>
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="mail">メールアドレス<span> *</span></label>
+                            <input type="mail" id="mail" name="email" required>
                         </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="contents">内容<span> *</span></label>
+                            <textarea name="contents" id="contents"></textarea>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="btn-container">
-                        <input type="submit" value="送信">
-                    </div>
-                </form>
-            </div>
-        </FadeIn>
+                <div class="btn-container">
+                    <input type="submit" value="送信">
+                </div>
+            </form>
+        </div>
     </section>
 </template>
 
 <script setup lang="ts">
-import FadeIn from "@/components/FadeIn.vue"
 </script>
 
 <style scoped lang="scss">
@@ -115,14 +112,14 @@ form {
                     width: 100%;
                     padding: 10px;
                     box-sizing: border-box;
-                    border-radius: 4px;
+                    border-radius: 8px;
                     background-color: #f9f9f9;
                     font-size: 16px;
                     outline: none;
                     border: 3px solid #ccc;
 
                     &:focus {
-                        border: 3px solid blue;
+                        border: 3px solid rgb(97, 97, 255);
                     }
                 }
             }
@@ -135,7 +132,7 @@ form {
         padding: 10px;
         box-sizing: border-box;
         border: 3px solid #ccc;
-        border-radius: 4px;
+        border-radius: 8px;
         background-color: #f9f9f9;
         font-size: 16px;
         margin-bottom: 15px;
