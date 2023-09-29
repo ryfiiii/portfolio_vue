@@ -1,51 +1,37 @@
 <template>
-  <div class="overflow">
-    <div ref="fade" :class="{ slidein: visible, hidden: !visible }">
-      <slot></slot>
-    </div>
+  <div ref="fade" :class="{ slidein: visible, hidden: !visible }">
+    <slot></slot>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount } from 'vue';
-
+import { ref, onMounted, onBeforeUnmount, watchEffect } from 'vue';
 const fade = ref<HTMLElement | null>(null);
 const visible = ref(false);
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.target === fade.value) {
-      visible.value = entry.isIntersecting;
-    }
-  });
-}, {
-  threshold: 0.1
-});
-
+const handleScroll = () => {
+  if (fade.value && !visible.value) {
+    const top = fade.value.getBoundingClientRect().top;
+    visible.value = (top + 100) < window.innerHeight;
+  }
+};
 onMounted(() => {
-  if (fade.value) {
-    observer.observe(fade.value);
-  }
+  window.addEventListener('scroll', handleScroll);
 });
-
 onBeforeUnmount(() => {
-  if (fade.value) {
-    observer.unobserve(fade.value);
-  }
+  window.removeEventListener('scroll', handleScroll);
+});
+watchEffect(() => {
+  handleScroll();
 });
 </script>
 
 <style scoped>
-.overflow {
-  overflow: hidden;
-}
-
 .hidden {
   opacity: 0;
 }
 
 .slidein {
-  animation: slideIn 0.8s;
+  animation: slideIn 1.5s;
   opacity: 1;
 }
 
@@ -59,5 +45,4 @@ onBeforeUnmount(() => {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-}
-</style>
+}</style>
