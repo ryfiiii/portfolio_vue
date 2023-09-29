@@ -9,7 +9,7 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                             <h2>HTML</h2>
                         </div>
-                        <Gauge :value="5"></Gauge>
+                        <Gauge :value="4"></Gauge>
                     </div>
                     <div class="skill-block">
                         <div class="text">
@@ -76,7 +76,7 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" />
                             <h2>Laravel</h2>
                         </div>
-                        <Gauge :value="5"></Gauge>
+                        <Gauge :value="4"></Gauge>
                     </div>
                     <div class="skill-block">
                         <div class="text">
