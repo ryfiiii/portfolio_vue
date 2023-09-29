@@ -34,7 +34,7 @@
                     :image="WeatherApp" 
                     :title="'WeatherApp'"
                     :body="'OpenWeatherApiから天気を取得し、対応した背景に更新するアプリ'" 
-                    :body2="''"
+                    :body2="'　'"
                     :url="'https://ryfiii-weatherapp.netlify.app/'"
                     :github="'https://github.com/ryfiii/WeatherApp'"
                     :skills="['JavaScript', 'HTML', 'CSS']">
@@ -47,6 +47,15 @@
                     :url="''"
                     :github="'https://github.com/ryfiii/RestfulApi-sample'"
                     :skills="['PHP', 'Laravel', 'MySQL']">
+                </Production>
+                <Production 
+                    :image="VueLaravelTodo" 
+                    :title="'Vue × Laravel TodoApp'"
+                    :body="'Laravelを用いてDBとの通信を行うAPIを作成しました。'" 
+                    :body2="'フロントにVue.jsを使用し、axiosでAPIを呼び出してデータを取得し、表示内容を動的に更新しています。'"
+                    :url="''"
+                    :github="'https://github.com/ryfiii/Todo_Laravel'"
+                    :skills="['PHP', 'Laravel', 'MySQL', 'Vue.js', 'BootStrap']">
                 </Production>
             </div>
         </div>
@@ -62,11 +71,12 @@ import Sample_inc from "@/assets/images/creation/SampleInc.png"
 import BlogSite from "@/assets/images/creation/RyuBlog.png"
 import WeatherApp from "@/assets/images/creation/WeatherApp.png"
 import RestApi from "@/assets/images/creation/RestfulApi.png"
+import VueLaravelTodo from "@/assets/images/creation/Vue_Laravel_TodoApp.png"
 </script>
 
 <style scoped lang="scss">
 #creation {
-    padding: 50px 0;
+    padding: 50px 0 100px 0;
     background-color: white;
 
     h1 {

@@ -16,7 +16,7 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                             <h2>CSS</h2>
                         </div>
-                        <Gauge :value="5"></Gauge>
+                        <Gauge :value="4"></Gauge>
                     </div>
                     <div class="skill-block">
                         <div class="text">
@@ -85,13 +85,13 @@
                         </div>
                         <Gauge :value="4"></Gauge>
                     </div>
-                    <div class="skill-block">
+                    <!-- <div class="skill-block">
                         <div class="text">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                             <h2>Java</h2>
                         </div>
                         <Gauge :value="3"></Gauge>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </SlideInRight>
@@ -106,7 +106,7 @@
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
                                 <h2>VSCode</h2>
                             </div>
-                            <Gauge :value="4"></Gauge>
+                            <Gauge :value="5"></Gauge>
                         </div>
                         <div class="skill-block">
                             <div class="text">
@@ -121,6 +121,13 @@
                                 <h2>Github</h2>
                             </div>
                             <Gauge :value="4"></Gauge>
+                        </div>
+                        <div class="skill-block">
+                            <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
+                                <h2>Windows</h2>
+                            </div>
+                            <Gauge :value="5"></Gauge>
                         </div>
                     </div>
                 </div>

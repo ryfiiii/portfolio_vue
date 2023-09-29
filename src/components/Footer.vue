@@ -1,6 +1,7 @@
 <template>
     <footer>
         <div>
+            <small>✉ ryuu0114s.r@icloud.com</small>
             <small>&copy; 2023 Ryunosuke.S All Rights Reserved.</small>
         </div>
     </footer>
@@ -14,8 +15,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
     width: 100%;
-    background-color: #ccc;
+    padding: 20px 0;
+    background-color: #ededed;
+
+    small {
+        display: block;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 0.9rem;
+    }
 }
 </style>

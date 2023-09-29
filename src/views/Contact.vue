@@ -60,7 +60,7 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 30px 0;
+    padding: 50px 0 80px 0;
 
     h1 {
         font-size: 1.8rem;
