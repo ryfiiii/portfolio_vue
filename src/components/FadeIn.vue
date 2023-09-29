@@ -5,28 +5,31 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount, watchEffect } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const fade = ref<HTMLElement | null>(null);
 const visible = ref(false);
 
-const handleScroll = () => {
-    if (fade.value && !visible.value) {
-        const top = fade.value.getBoundingClientRect().top;
-        visible.value = (top + 100) < window.innerHeight;
-    }
-};
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.target === fade.value) {
+            visible.value = entry.isIntersecting;
+        }
+    });
+}, {
+    threshold: 0.1
+});
 
 onMounted(() => {
-    window.addEventListener('scroll', handleScroll);
+    if (fade.value) {
+        observer.observe(fade.value);
+    }
 });
 
 onBeforeUnmount(() => {
-    window.removeEventListener('scroll', handleScroll);
-});
-
-watchEffect(() => {
-    handleScroll();
+    if (fade.value) {
+        observer.unobserve(fade.value);
+    }
 });
 </script>
 
@@ -36,7 +39,7 @@ watchEffect(() => {
 }
 
 .fadein {
-    animation: fadeIn 1.5s;
+    animation: fadeIn 1.0s;
     opacity: 1;
 }
 
