@@ -112,14 +112,14 @@ form {
                     width: 100%;
                     padding: 10px;
                     box-sizing: border-box;
-                    border-radius: 4px;
+                    border-radius: 8px;
                     background-color: #f9f9f9;
                     font-size: 16px;
                     outline: none;
                     border: 3px solid #ccc;
 
                     &:focus {
-                        border: 3px solid blue;
+                        border: 3px solid rgb(97, 97, 255);
                     }
                 }
             }
@@ -132,7 +132,7 @@ form {
         padding: 10px;
         box-sizing: border-box;
         border: 3px solid #ccc;
-        border-radius: 4px;
+        border-radius: 8px;
         background-color: #f9f9f9;
         font-size: 16px;
         margin-bottom: 15px;
