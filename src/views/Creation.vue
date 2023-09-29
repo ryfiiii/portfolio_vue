@@ -15,11 +15,11 @@
                 <Production 
                     :image="PicShare" 
                     :title="'PicShare'" 
-                    :body="'ログイン機能、文章・画像・タグ投稿機能、タグ検索機能、投稿編集・削除機能を実装した簡易版Instagram。'" 
-                    :body2="'読みやすいコードを意識しコーディングしました。また、デプロイまで自分で行った初めてのアプリです。'"
+                    :body="'ログイン機能、文章・画像・タグ投稿機能、タグ検索機能、投稿編集・削除機能を実装した簡易版Instagram。読みやすいコードを意識しながらコーディングし、デプロイまで行いました。'" 
+                    :body2="'sample@sample.com / sample123 でログインできます'"
                     :url="'http://ryfiii.ddo.jp/'"
                     :github="'https://github.com/ryfiii/picshare'"
-                    :skills="['PHP', 'Laravel', 'CSS', 'BootStrap', 'AWS', 'Linux']">
+                    :skills="['PHP', 'Laravel', 'CSS', 'BootStrap', 'AWS', 'Linux', 'LightSail']">
                 </Production>
                 <Production 
                     :image="Sample_inc" 
