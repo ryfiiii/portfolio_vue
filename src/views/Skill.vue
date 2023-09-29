@@ -124,7 +124,8 @@
                         </div>
                         <div class="skill-block">
                             <div class="text">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" />
                                 <h2>Windows</h2>
                             </div>
                             <Gauge :value="5"></Gauge>
@@ -133,6 +134,42 @@
                 </div>
             </div>
         </SlideInLeft>
+
+        <SlideInRight>
+            <div class="interest">
+                <h1>興味がある</h1>
+                <div class="oowaku">
+                    <div class="skill-section">
+                        <div class="interest-block">
+                            <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+                                <h2>React</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" />
+                                <h2>Nuxt.js</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" />
+                                <h2>WordPress</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                                <h2>PostgreSQL</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </SlideInRight>
     </section>
 </template>
 
@@ -145,7 +182,8 @@ import SlideInRight from "@/components/SlideInRight.vue"
 
 <style scoped lang="scss">
 #skill {
-    padding: 50px 0;
+    padding-top: 5px;
+    padding-bottom: 70px;
     background: url("../assets/images/dog-megane.jpg");
     background-position: center;
     background-size: cover;
@@ -153,7 +191,10 @@ import SlideInRight from "@/components/SlideInRight.vue"
 
     .frontend,
     .backend,
-    .tool-others {
+    .tool-others,
+    .interest {
+
+        margin-top: 90px;
 
         h1 {
             text-align: center;
@@ -177,8 +218,41 @@ import SlideInRight from "@/components/SlideInRight.vue"
                 background-color: white;
                 border-radius: 10px;
                 margin-right: 30px;
-                margin-top: 20px;
+                margin-top: 30px;
                 padding: 10px 35px;
+                box-shadow: 0px 10px 18px -3px #777777;
+                transition: transform 0.4s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                .text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 5px;
+
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 8px;
+                    }
+                }
+            }
+
+            .interest-block {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: white;
+                border-radius: 10px;
+                margin-right: 30px;
+                margin-top: 30px;
+                padding-top: 4px;
+                width: 236px;
+                height: 65px;
                 box-shadow: 0px 10px 18px -3px #777777;
                 transition: transform 0.4s;
 
