@@ -4,6 +4,15 @@
         <div class="gallery">
             <div class="creation-section">
                 <Production 
+                    :image="PortFolio" 
+                    :title="'PortFolio'" 
+                    :body="'私が使用できる、技術・技術レベル・制作物 等を紹介するために作成しました。'" 
+                    :body2="'制作物のソースコードはGithubのアイコンをクリックすることで見ることができます。'"
+                    :url="'https://ryfiii-portfolio.netlify.app/'"
+                    :github="'https://github.com/ryfiii/portfolio_vue'"
+                    :skills="['Vue.js', 'TypeScript', 'Sass']">
+                </Production>
+                <Production 
                     :image="PicShare" 
                     :title="'PicShare'" 
                     :body="'ログイン機能、文章・画像・タグ投稿機能、タグ検索機能、投稿編集・削除機能を実装した簡易版Instagram。'" 
@@ -66,6 +75,7 @@
 import Production from "@/components/Production.vue"
 
 //写真インポート
+import PortFolio from "@/assets/images/creation/vue-portfolio.png"
 import PicShare from "@/assets/images/creation/PicShare.png"
 import Sample_inc from "@/assets/images/creation/SampleInc.png"
 import BlogSite from "@/assets/images/creation/RyuBlog.png"
