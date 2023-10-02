@@ -177,20 +177,29 @@
 import Gauge from "@/components/Gauge.vue"
 import SlideInLeft from "@/components/SlideInLeft.vue"
 import SlideInRight from "@/components/SlideInRight.vue"
+import dogMegane from "@/assets/images/dog-megane.jpg"
+
+import { ref } from "vue"
+const imagePath = ref<string>(dogMegane)
 </script>
 
 <style scoped lang="scss">
 @import "../assets/css/validate-function";
 
 #skill {
+    width: 100%;
+    height: 100%;
     padding-top: 5px;
     padding-bottom: 70px;
-    background: url("../assets/images/dog-megane.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     @include flexCenter;
     flex-direction: column;
+    background: url("../assets/images/dog-megane.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    @include mq(){
+        background-attachment: scroll;
+    }
 
     .frontend,
     .backend,

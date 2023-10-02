@@ -23,6 +23,7 @@ import FadeIn from "@/components/FadeIn.vue"
 @import "../assets/css/validate-function";
 
 #profile {
+    background-color: #fff;
     padding: 130px 0 200px 0;
     @include flexCenter;
     flex-direction: column;

@@ -14,10 +14,13 @@
     width: 100%;
     height: 100vh;
     background: url("../assets/images/sea.jpg");
-    background-position: center;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     @include flexCenter;
+    @include mq(){
+        background-attachment: scroll;
+    }
 
     h1 {
         font-size: 3.5rem;
