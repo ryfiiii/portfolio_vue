@@ -36,6 +36,7 @@ const props = defineProps<{
 </script>
 
 <style scoped lang="scss">
+@import "../assets/css/validate-function";
 .production {
     display: flex;
     width: 1100px;
@@ -43,6 +44,12 @@ const props = defineProps<{
     border-radius: 10px;
     box-shadow: 0px 10px 18px -3px #777777;
     margin-top: 40px;
+    @include mq(){
+        width: 300px;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
 
     img {
         display: block;
@@ -52,6 +59,11 @@ const props = defineProps<{
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         border-right: 1px solid #ccc;
+        @include mq(){
+            width: 300px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 0;
+        }
     }
 
     .text {
@@ -80,6 +92,7 @@ const props = defineProps<{
             display: flex;
             justify-content: center;
             margin-top: 20px;
+            flex-wrap: wrap;
 
             span {
                 display: block;
@@ -87,6 +100,7 @@ const props = defineProps<{
                 margin-right: 10px;
                 padding: 5px 10px;
                 border-radius: 20px;
+                margin-bottom: 10px;
             }
         }
     }

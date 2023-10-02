@@ -204,13 +204,16 @@ import SlideInRight from "@/components/SlideInRight.vue"
             text-align: center;
             color: white;
             margin: 50px 0 10px 0;
+            @include mq(){
+                margin: 0;
+            }
         }
 
         .skill-section {
             max-width: 1400px;
             @include flexCenter;
             flex-wrap: wrap;
-            margin: 0 auto 30px auto;
+            margin: 0 0 30px 0;
 
             .skill-block {
                 @include flexCenter;
@@ -269,4 +272,5 @@ import SlideInRight from "@/components/SlideInRight.vue"
             }
         }
     }
-}</style>
+}
+</style>

@@ -26,6 +26,7 @@
         @include mq(){
             font-size: 2.2rem;
             text-align: center;
+            padding: 0 20px;
         }
     }
 }
