@@ -177,10 +177,6 @@
 import Gauge from "@/components/Gauge.vue"
 import SlideInLeft from "@/components/SlideInLeft.vue"
 import SlideInRight from "@/components/SlideInRight.vue"
-import dogMegane from "@/assets/images/dog-megane.jpg"
-
-import { ref } from "vue"
-const imagePath = ref<string>(dogMegane)
 </script>
 
 <style scoped lang="scss">
@@ -198,6 +194,8 @@ const imagePath = ref<string>(dogMegane)
     background-position: center;
     background-attachment: fixed;
     @include mq(){
+        background: url("");
+        background-color: #dddddd;
         background-attachment: scroll;
     }
 
@@ -215,6 +213,7 @@ const imagePath = ref<string>(dogMegane)
             margin: 50px 0 10px 0;
             @include mq(){
                 margin: 0;
+                color: #2c3e50;
             }
         }
 
