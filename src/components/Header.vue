@@ -43,6 +43,8 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped lang="scss">
+@import "../assets/css/validate-function";
+
 header {
     width: 100%;
     position: absolute;
@@ -53,9 +55,15 @@ header {
         justify-content: space-between;
         align-items: center;
         height: 50px;
+        @include mq(){
+            justify-content: center;
+        }
 
         .logo {
             margin-left: 30px;
+            @include mq(){
+                display: none;
+            }
         }
 
         ul {
@@ -68,6 +76,9 @@ header {
 
                 &:last-child {
                     margin-right: 60px;
+                    @include mq(){
+                        margin-right: 0;
+                    }
                 }
 
                 a {
