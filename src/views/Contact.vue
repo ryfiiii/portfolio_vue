@@ -54,6 +54,8 @@
 </script>
 
 <style scoped lang="scss">
+@import "../assets/css/validate-function";
+
 #contact {
     height: 100%;
     background: url("../assets/images/contact.jpg");
