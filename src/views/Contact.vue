@@ -57,12 +57,18 @@
 @import "../assets/css/validate-function";
 
 #contact {
+    width: 100%;
     height: 100%;
-    background: url("../assets/images/contact.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     padding: 50px 0 80px 0;
+    @include flexCenter;
+    flex-direction: column;
+    background: url("../assets/images/contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    @include mq(){
+        background-attachment: scroll;
+    }
 
     h1 {
         font-size: 1.8rem;
