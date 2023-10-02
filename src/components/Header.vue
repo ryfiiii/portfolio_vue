@@ -3,7 +3,7 @@
         <header :class="{ 'light': isScreenTop }">
             <nav>
                 <div class="logo">
-                    <h1 v-if="isScreenTop">RyuCode</h1>
+                    <h1 v-if="isScreenTop">PortFolio</h1>
                 </div>
                 <ul>
                     <li><a href="#profile" v-smooth-scroll>Profile</a></li>
@@ -103,7 +103,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.6s ease;
     cursor: pointer;
     z-index: 100;
 

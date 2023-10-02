@@ -175,12 +175,13 @@
 
 <script setup lang="ts">
 import Gauge from "@/components/Gauge.vue"
-import FadeIn from "@/components/FadeIn.vue"
 import SlideInLeft from "@/components/SlideInLeft.vue"
 import SlideInRight from "@/components/SlideInRight.vue"
 </script>
 
 <style scoped lang="scss">
+@import "../assets/css/validate-function";
+
 #skill {
     padding-top: 5px;
     padding-bottom: 70px;
@@ -188,13 +189,16 @@ import SlideInRight from "@/components/SlideInRight.vue"
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    @include flexCenter;
+    flex-direction: column;
 
     .frontend,
     .backend,
     .tool-others,
     .interest {
-
         margin-top: 90px;
+        @include flexCenter;
+        flex-direction: column;
 
         h1 {
             text-align: center;
@@ -204,16 +208,12 @@ import SlideInRight from "@/components/SlideInRight.vue"
 
         .skill-section {
             max-width: 1400px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flexCenter;
             flex-wrap: wrap;
             margin: 0 auto 30px auto;
 
             .skill-block {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flexCenter;
                 flex-direction: column;
                 background-color: white;
                 border-radius: 10px;
@@ -228,9 +228,7 @@ import SlideInRight from "@/components/SlideInRight.vue"
                 }
 
                 .text {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include flexCenter;
                     margin-bottom: 5px;
 
                     img {
@@ -242,9 +240,7 @@ import SlideInRight from "@/components/SlideInRight.vue"
             }
 
             .interest-block {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flexCenter;
                 flex-direction: column;
                 background-color: white;
                 border-radius: 10px;
@@ -261,9 +257,7 @@ import SlideInRight from "@/components/SlideInRight.vue"
                 }
 
                 .text {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include flexCenter;
                     margin-bottom: 5px;
 
                     img {

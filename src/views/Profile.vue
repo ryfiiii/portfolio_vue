@@ -1,5 +1,6 @@
 <template>
     <section id="profile">
+        <h1>Profile</h1>
         <div class="about">
             <img src="../assets/images/apple.jpg" alt="">
             <FadeIn>
@@ -19,51 +20,54 @@ import FadeIn from "@/components/FadeIn.vue"
 </script>
 
 <style scoped lang="scss">
-#profile {
-    height: 500px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@import "../assets/css/validate-function";
 
-    &::after {
-        content: "Profile";
-        color: rgb(81, 173, 254);
-        font-size: 2.0rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        width: 200px;
-        height: 50px;
-        top: -50px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: white;
-        z-index: 5;
-        border-top-right-radius: 8px;
-        border-top-left-radius: 8px;
+#profile {
+    padding: 130px 0 200px 0;
+    @include flexCenter;
+    flex-direction: column;
+    @include mq(){
+        padding: 50px 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 70px;
+        @include mq(){
+            margin-bottom: 0;
+        }
     }
 
     .about {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         width: 80%;
+        @include flexCenter;
+        @include mq(){
+            flex-direction: column;
+        }
 
         img {
             width: 200px;
             height: 200px;
             object-fit: cover;
             border-radius: 50%;
+            @include mq(){
+                margin: 60px 0;
+            }
         }
 
         .text {
             margin-left: 20px;
+            @include mq(){
+                text-align: center;
+            }
 
             h1 {
                 font-size: 1.5rem;
                 margin-bottom: 10px;
+                @include mq(){
+                    font-size: 1.7rem;
+                    margin-bottom: 30px;
+                }
             }
 
             p {
