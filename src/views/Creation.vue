@@ -53,7 +53,7 @@
                     :title="'RestApi'"
                     :body="'RestfulApiのサンプル。GET/POST/PUT/DELETEそれぞれのリクエストを送り、結果を取得できます。'" 
                     :body2="'ApiKeyの認証はLaravelのミドルウェアで行っています。'"
-                    :url="''"
+                    :url="'https://ryfiii-404-notfound.vercel.app/'"
                     :github="'https://github.com/ryfiii/RestfulApi-sample'"
                     :skills="['PHP', 'Laravel', 'MySQL']">
                 </Production>
@@ -62,7 +62,7 @@
                     :title="'Vue × Laravel TodoApp'"
                     :body="'Laravelを用いてDBとの通信を行うAPIを作成しました。'" 
                     :body2="'フロントにVue.jsを使用し、axiosでAPIを呼び出してデータを取得し、表示内容を動的に更新しています。'"
-                    :url="''"
+                    :url="'https://ryfiii-404-notfound.vercel.app/'"
                     :github="'https://github.com/ryfiii/Todo_Laravel'"
                     :skills="['PHP', 'Laravel', 'MySQL', 'Vue.js', 'BootStrap']">
                 </Production>

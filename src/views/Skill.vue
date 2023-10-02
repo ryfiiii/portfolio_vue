@@ -85,6 +85,13 @@
                         </div>
                         <Gauge :value="4"></Gauge>
                     </div>
+                    <div class="skill-block">
+                        <div class="text">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                            <h2>PostgreSQL</h2>
+                        </div>
+                        <Gauge :value="3"></Gauge>
+                    </div>
                     <!-- <div class="skill-block">
                         <div class="text">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
@@ -157,13 +164,6 @@
                                 <img
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" />
                                 <h2>WordPress</h2>
-                            </div>
-                        </div>
-                        <div class="interest-block">
-                            <div class="text">
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-                                <h2>PostgreSQL</h2>
                             </div>
                         </div>
                     </div>
