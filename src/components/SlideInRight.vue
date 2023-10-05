@@ -31,7 +31,7 @@ watchEffect(() => {
 }
 
 .slidein {
-  animation: slideIn 1.5s;
+  animation: slideIn 1.0s;
   opacity: 1;
 }
 

@@ -28,14 +28,6 @@
                     </div>
                     <div class="skill-block">
                         <div class="text">
-                            <img
-                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                            <h2>TypeScript</h2>
-                        </div>
-                        <Gauge :value="3"></Gauge>
-                    </div>
-                    <div class="skill-block">
-                        <div class="text">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
                             <h2>Vue.js</h2>
                         </div>
@@ -166,6 +158,13 @@
                                 <h2>WordPress</h2>
                             </div>
                         </div>
+                        <div class="interest-block">
+                        <div class="text">
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+                            <h2>TypeScript</h2>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
