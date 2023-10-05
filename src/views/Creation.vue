@@ -40,6 +40,15 @@
                     :skills="['Vue.js', 'Sass', 'MicroCMS']">
                 </Production>
                 <Production 
+                    :image="RealtimeChat" 
+                    :title="'RealtimeChat'"
+                    :body="'LINEのようにリアルタイムでやり取りができるチャットアプリ'"
+                    :body2="'PusherとLaravel Echoを活用して、ユーザー間のリアルタイムな対話を可能にし、且つデータベースに情報を保存し永続化を実現しています。'"
+                    :url="'https://ryfiii-404-notfound.vercel.app/'"
+                    :github="'https://github.com/ryfiii/ChatApp_VuexLaravel'"
+                    :skills="['Vue.js', 'Laravel', 'Pusher', 'Laravel Echo', 'Sass', 'MySQL', 'Laravel UI']">
+                </Production>
+                <Production 
                     :image="WeatherApp" 
                     :title="'WeatherApp'"
                     :body="'OpenWeatherApiから天気を取得し、対応した背景に更新するアプリ'" 
@@ -82,6 +91,7 @@ import BlogSite from "@/assets/images/creation/RyuBlog.png"
 import WeatherApp from "@/assets/images/creation/WeatherApp.png"
 import RestApi from "@/assets/images/creation/RestfulApi.png"
 import VueLaravelTodo from "@/assets/images/creation/Vue_Laravel_TodoApp.png"
+import RealtimeChat from "@/assets/images/creation/RealtimeChat.png"
 </script>
 
 <style scoped lang="scss">
