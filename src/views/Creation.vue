@@ -49,6 +49,15 @@
                     :skills="['Vue.js', 'Laravel', 'Pusher', 'Laravel Echo', 'Sass', 'MySQL', 'Laravel UI']">
                 </Production>
                 <Production 
+                    :image="Laravel_Stripe_Shop" 
+                    :title="'StripeShop'" 
+                    :body="'購入したブログのみを閲覧できる、ブログショッピングアプリです。'" 
+                    :body2="'決済システムにはStripe、ブログにはMicroCMSを使用しています。'"
+                    :url="'https://ryfiii-404-notfound.vercel.app/'"
+                    :github="'https://github.com/ryfiii/Laravel_Stripe_Blog'"
+                    :skills="['Laravel', 'Stripe', 'StripeApi', 'MicroCMS', 'LaravelBreeze', 'TailwindCss', 'MySQL']">
+                </Production>
+                <Production 
                     :image="WeatherApp" 
                     :title="'WeatherApp'"
                     :body="'OpenWeatherApiから天気を取得し、対応した背景に更新するアプリ'" 
@@ -92,6 +101,7 @@ import WeatherApp from "@/assets/images/creation/WeatherApp.png"
 import RestApi from "@/assets/images/creation/RestfulApi.png"
 import VueLaravelTodo from "@/assets/images/creation/Vue_Laravel_TodoApp.png"
 import RealtimeChat from "@/assets/images/creation/RealtimeChat.png"
+import Laravel_Stripe_Shop from "@/assets/images/creation/laravel_stripe_shop.png"
 </script>
 
 <style scoped lang="scss">
