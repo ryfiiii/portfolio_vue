@@ -75,15 +75,15 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
                             <h2>MySQL</h2>
                         </div>
-                        <Gauge :value="4"></Gauge>
+                        <Gauge :value="3"></Gauge>
                     </div>
-                    <div class="skill-block">
+                    <!-- <div class="skill-block">
                         <div class="text">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
                             <h2>PostgreSQL</h2>
                         </div>
                         <Gauge :value="3"></Gauge>
-                    </div>
+                    </div> -->
                     <!-- <div class="skill-block">
                         <div class="text">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
@@ -136,6 +136,35 @@
 
         <SlideInRight>
             <div class="interest">
+                <h1>勉強中</h1>
+                <div class="oowaku">
+                    <div class="skill-section">
+                        <div class="interest-block">
+                            <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg">
+                                <h2>TailwindCss</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                                <h2>Java</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+                                <h2>Spring</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </SlideInRight>
+
+        <SlideInLeft>
+            <div class="interest">
                 <h1>興味がある</h1>
                 <div class="oowaku">
                     <div class="skill-section">
@@ -168,7 +197,7 @@
                     </div>
                 </div>
             </div>
-        </SlideInRight>
+        </SlideInLeft>
     </section>
 </template>
 

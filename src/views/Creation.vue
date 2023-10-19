@@ -75,7 +75,7 @@
                     :github="'https://github.com/ryfiii/RestfulApi-sample'"
                     :skills="['PHP', 'Laravel', 'MySQL']">
                 </Production>
-                <Production 
+                <!-- <Production 
                     :image="VueLaravelTodo" 
                     :title="'Vue × Laravel TodoApp'"
                     :body="'Laravelを用いてDBとの通信を行うAPIを作成しました。'" 
@@ -83,7 +83,7 @@
                     :url="'https://ryfiii-404-notfound.vercel.app/'"
                     :github="'https://github.com/ryfiii/Todo_Laravel'"
                     :skills="['PHP', 'Laravel', 'MySQL', 'Vue.js', 'BootStrap']">
-                </Production>
+                </Production> -->
             </div>
         </div>
     </section>
