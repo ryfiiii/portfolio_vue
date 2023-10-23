@@ -84,13 +84,6 @@
                         </div>
                         <Gauge :value="3"></Gauge>
                     </div> -->
-                    <!-- <div class="skill-block">
-                        <div class="text">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                            <h2>Java</h2>
-                        </div>
-                        <Gauge :value="3"></Gauge>
-                    </div> -->
                 </div>
             </div>
         </SlideInRight>
@@ -147,15 +140,8 @@
                         </div>
                         <div class="interest-block">
                             <div class="text">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                                <h2>Java</h2>
-                            </div>
-                        </div>
-                        <div class="interest-block">
-                            <div class="text">
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
-                                <h2>Spring</h2>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" />
+                                <h2>Nuxt.js</h2>
                             </div>
                         </div>
                     </div>
@@ -172,12 +158,6 @@
                             <div class="text">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
                                 <h2>React</h2>
-                            </div>
-                        </div>
-                        <div class="interest-block">
-                            <div class="text">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" />
-                                <h2>Nuxt.js</h2>
                             </div>
                         </div>
                         <div class="interest-block">
