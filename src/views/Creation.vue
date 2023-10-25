@@ -58,6 +58,15 @@
                     :skills="['Laravel', 'Stripe', 'StripeApi', 'MicroCMS', 'LaravelBreeze', 'TailwindCss', 'MySQL']">
                 </Production>
                 <Production 
+                    :image="ExpressTsRestapi" 
+                    :title="'express-ts-restapi'" 
+                    :body="'Express, Typescript, Prismaを使用して作成した簡単なRestfulApi'" 
+                    :body2="'GET/POST/PUT/DELETE それぞれのリクエストに対応しています。'"
+                    :url="'https://ryfiii-404-notfound.vercel.app/'"
+                    :github="'https://github.com/ryfiii/express_ts_restapi'"
+                    :skills="['Node.js', 'Express', 'TypeScript', 'Prisma']">
+                </Production>
+                <Production 
                     :image="WeatherApp" 
                     :title="'WeatherApp'"
                     :body="'OpenWeatherApiから天気を取得し、対応した背景に更新するアプリ'" 
@@ -102,6 +111,7 @@ import RestApi from "@/assets/images/creation/RestfulApi.png"
 import VueLaravelTodo from "@/assets/images/creation/Vue_Laravel_TodoApp.png"
 import RealtimeChat from "@/assets/images/creation/RealtimeChat.png"
 import Laravel_Stripe_Shop from "@/assets/images/creation/laravel_stripe_shop.png"
+import ExpressTsRestapi from "@/assets/images/creation/express-ts-restapi.png"
 </script>
 
 <style scoped lang="scss">
