@@ -75,6 +75,7 @@
         color: white;
         text-align: center;
         margin-bottom: 30px;
+        text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
     }
 }
 

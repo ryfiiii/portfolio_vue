@@ -19,7 +19,7 @@
                     :body2="'sample@sample.com / sample123 でログインできます'"
                     :url="'http://ryfiii.ddo.jp/'"
                     :github="'https://github.com/ryfiiii/picshare'"
-                    :skills="['PHP', 'Laravel', 'CSS', 'BootStrap', 'AWS', 'Linux', 'LightSail']">
+                    :skills="['Laravel', 'BootStrap', 'AWS', 'Linux']">
                 </Production>
                 <Production 
                     :image="Sample_inc" 
@@ -44,25 +44,25 @@
                     :title="'RealtimeChat'"
                     :body="'LINEのようにリアルタイムでやり取りができるチャットアプリ'"
                     :body2="'PusherとLaravel Echoを活用して、ユーザー間のリアルタイムな対話を可能にし、且つデータベースに情報を保存し永続化を実現しています。'"
-                    :url="'https://ryfiii-404-notfound.vercel.app/'"
+                    :url="'https://github.com/ryfiiii/ChatApp_VuexLaravel'"
                     :github="'https://github.com/ryfiiii/ChatApp_VuexLaravel'"
-                    :skills="['Vue.js', 'Laravel', 'Pusher', 'Laravel Echo', 'Sass', 'MySQL', 'Laravel UI']">
+                    :skills="['Vue.js', 'Laravel', 'Pusher', 'Laravel Echo', 'Sass', 'MySQL']">
                 </Production>
                 <Production 
                     :image="Laravel_Stripe_Shop" 
                     :title="'StripeShop'" 
                     :body="'購入したブログのみを閲覧できる、ブログショッピングアプリです。'" 
                     :body2="'決済システムにはStripe、ブログにはMicroCMSを使用しています。'"
-                    :url="'https://ryfiii-404-notfound.vercel.app/'"
+                    :url="'https://github.com/ryfiiii/Laravel_Stripe_Blog/'"
                     :github="'https://github.com/ryfiiii/Laravel_Stripe_Blog'"
-                    :skills="['Laravel', 'Stripe', 'StripeApi', 'MicroCMS', 'LaravelBreeze', 'TailwindCss', 'MySQL']">
+                    :skills="['Laravel', 'Stripe', 'MicroCMS', 'TailwindCss', 'MySQL']">
                 </Production>
                 <Production 
                     :image="ExpressTsRestapi" 
                     :title="'express-ts-restapi'" 
                     :body="'Express, Typescript, Prismaを使用して作成した簡単なRestfulApi'" 
                     :body2="'GET/POST/PUT/DELETE それぞれのリクエストに対応しています。'"
-                    :url="'https://ryfiii-404-notfound.vercel.app/'"
+                    :url="'https://github.com/ryfiiii/express_ts_restapi/'"
                     :github="'https://github.com/ryfiiii/express_ts_restapi'"
                     :skills="['Node.js', 'Express', 'TypeScript', 'Prisma']">
                 </Production>
@@ -75,7 +75,7 @@
                     :github="'https://github.com/ryfiiii/WeatherApp'"
                     :skills="['JavaScript', 'HTML', 'CSS']">
                 </Production>
-                <Production 
+                <!-- <Production 
                     :image="RestApi" 
                     :title="'RestApi'"
                     :body="'RestfulApiのサンプル。GET/POST/PUT/DELETEそれぞれのリクエストを送り、結果を取得できます。'" 
@@ -83,7 +83,7 @@
                     :url="'https://ryfiii-404-notfound.vercel.app/'"
                     :github="'https://github.com/ryfiiii/RestfulApi-sample'"
                     :skills="['PHP', 'Laravel', 'MySQL']">
-                </Production>
+                </Production> -->
                 <!-- <Production 
                     :image="VueLaravelTodo" 
                     :title="'Vue × Laravel TodoApp'"
@@ -122,6 +122,7 @@ import ExpressTsRestapi from "@/assets/images/creation/express-ts-restapi.png"
     h1 {
         text-align: center;
         font-size: 1.8rem;
+        text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
     }
 
     .gallery {

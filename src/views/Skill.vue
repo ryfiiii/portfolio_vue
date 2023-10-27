@@ -1,5 +1,6 @@
 <template>
     <section id="skill">
+        <h1 class="title">Skill</h1>
         <SlideInLeft>
             <div class="frontend">
                 <h1>フロントエンド</h1>
@@ -138,12 +139,7 @@
                                 <h2>TailwindCss</h2>
                             </div>
                         </div>
-                        <div class="interest-block">
-                            <div class="text">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" />
-                                <h2>Nuxt.js</h2>
-                            </div>
-                        </div>
+
                         <div class="interest-block">
                             <div class="text">
                                 <img
@@ -175,6 +171,12 @@
                 <h1>興味がある</h1>
                 <div class="oowaku">
                     <div class="skill-section">
+                        <div class="interest-block">
+                            <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" />
+                                <h2>Nuxt.js</h2>
+                            </div>
+                        </div>
                         <div class="interest-block">
                             <div class="text">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
@@ -211,32 +213,33 @@ import SlideInRight from "@/components/SlideInRight.vue"
     padding-bottom: 70px;
     @include flexCenter;
     flex-direction: column;
-    background: url("../assets/images/dog-megane.jpg");
+    background: url("../assets/images/sky.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    @include mq(){
-        background: url("");
-        background-color: #dddddd;
-        background-attachment: scroll;
+
+    .title {
+        font-size: 2.8rem;
+        color: white;
+        text-align: center;
+        margin-top: 60px;
+        text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
     }
+    
 
     .frontend,
     .backend,
     .tool-others,
     .interest {
-        margin-top: 90px;
+        margin-top: 50px;
         @include flexCenter;
         flex-direction: column;
 
         h1 {
             text-align: center;
             color: white;
-            margin: 50px 0 10px 0;
-            @include mq(){
-                margin: 0;
-                color: #2c3e50;
-            }
+            text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+            margin: 10px 0 10px 0;
         }
 
         .skill-section {
