@@ -217,6 +217,9 @@ import SlideInRight from "@/components/SlideInRight.vue"
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    @include mq(){
+        background-attachment: scroll;
+    }
 
     .title {
         font-size: 2.8rem;
