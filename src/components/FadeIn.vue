@@ -8,7 +8,7 @@
   import { ref, onMounted, onBeforeUnmount } from 'vue';
   
   const fade = ref<HTMLElement | null>(null);
-  const visible = ref(false);
+  const visible = ref<Boolean>(false);
   
   const handleScroll = () => {
     if (fade.value && !visible.value) {

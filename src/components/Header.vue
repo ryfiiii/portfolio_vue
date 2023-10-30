@@ -22,8 +22,8 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount, watchEffect } from 'vue';
 
-const scrollY = ref(0);
-const isScreenTop = ref(false);
+const scrollY = ref<number>(0);
+const isScreenTop = ref<Boolean>(false);
 
 const onScroll = () => {
     scrollY.value = window.pageYOffset;

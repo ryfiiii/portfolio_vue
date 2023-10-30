@@ -24,7 +24,7 @@
 <script setup lang="ts">
 import FadeIn from "@/components/FadeIn.vue"
 
-const props = defineProps<{
+defineProps<{
     image: string,
     title: string,
     body: string,
