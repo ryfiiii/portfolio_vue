@@ -1,6 +1,9 @@
 <template>
     <section id="creation">
         <h1>Creation</h1>
+        <p class="details">
+            これまでに学んできた知識を定着させるために制作した作品をいくつか紹介しています。使用した技術スタックやソースコードも公開しておりますので、詳細についてご覧いただけます。お時間が許す際に、ぜひご確認ください。
+        </p>
         <div class="gallery">
             <div class="creation-section">
                 <Production 
@@ -118,6 +121,12 @@ import ExpressTsRestapi from "@/assets/images/creation/express-ts-restapi.png"
 #creation {
     padding: 50px 0 100px 0;
     background-color: white;
+
+    .details {
+        width: 80%;
+        margin: 30px auto;
+        font-size: 1.1rem;
+    }
 
     h1 {
         text-align: center;
