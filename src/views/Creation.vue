@@ -12,7 +12,7 @@
                     :body="'私が使用できる、技術・技術レベル・制作物 等を紹介するために作成しました。'" 
                     :body2="'制作物のソースコードはGithubのアイコンをクリックすることで見ることができます。'"
                     :url="'https://ryfiii-portfolio.vercel.app/'"
-                    :github="'https://github.com/ryfiiii/portfolio_vue_jc'"
+                    :github="'https://github.com/ryfiiii/portfolio_vue'"
                     :skills="['Vue.js', 'TypeScript', 'Sass']">
                 </Production>
                 <Production 
