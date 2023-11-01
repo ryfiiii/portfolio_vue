@@ -8,7 +8,7 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const slide = ref<HTMLElement | null>(null);
-const visible = ref<Boolean>(false);
+const visible = ref<boolean>(false);
 
 const handleScroll = () => {
   if (slide.value && !visible.value) {
