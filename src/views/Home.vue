@@ -17,5 +17,5 @@ import Contact from "@/views/Contact.vue"
 </script>
 
 <style scoped lang="scss">
-    
+
 </style>

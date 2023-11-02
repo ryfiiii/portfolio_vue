@@ -73,10 +73,24 @@
                     </div>
                     <div class="skill-block">
                         <div class="text">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                            <h2>Node.js</h2>
+                        </div>
+                        <Gauge :value="3"></Gauge>
+                    </div>
+                    <div class="skill-block">
+                        <div class="text">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                            <h2>Express</h2>
+                        </div>
+                        <Gauge :value="3"></Gauge>
+                    </div>
+                    <div class="skill-block">
+                        <div class="text">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
                             <h2>MySQL</h2>
                         </div>
-                        <Gauge :value="3"></Gauge>
+                        <Gauge :value="4"></Gauge>
                     </div>
                     <!-- <div class="skill-block">
                         <div class="text">
@@ -145,20 +159,6 @@
                                 <img
                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                                 <h2>TypeScript</h2>
-                            </div>
-                        </div>
-                        <div class="interest-block">
-                            <div class="text">
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                                <h2>Node.js</h2>
-                            </div>
-                        </div>
-                        <div class="interest-block">
-                            <div class="text">
-                                <img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
-                                <h2>Express</h2>
                             </div>
                         </div>
                     </div>
