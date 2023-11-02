@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(1, 216, 202);
+    background-color: rgb(92, 180, 232);
     width: 100%;
     height: 100vh;
     position: absolute;
