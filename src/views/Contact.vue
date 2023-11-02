@@ -89,7 +89,6 @@ form {
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 
 
@@ -145,7 +144,7 @@ form {
         background-color: #f9f9f9;
         font-size: 16px;
         margin-bottom: 15px;
-        resize: vertical;
+        resize: none;
         outline: none;
 
         &:focus {
