@@ -34,13 +34,13 @@
                     :skills="['Vue.js', 'Sass']">
                 </Production>
                 <Production 
-                    :image="RealtimeChat" 
-                    :title="'RealtimeChat'"
-                    :body="'LINEのようにリアルタイムでやり取りができるチャットアプリ'"
-                    :body2="'PusherとLaravel Echoを活用して、ユーザー間のリアルタイムな対話を可能にし、且つデータベースに情報を保存し永続化を実現しています。'"
-                    :url="'https://github.com/ryfiiii/ChatApp_VuexLaravel'"
-                    :github="'https://github.com/ryfiiii/ChatApp_Vue_Laravel_jc'"
-                    :skills="['Vue.js', 'Laravel', 'Pusher', 'Laravel Echo', 'Sass', 'MySQL']">
+                    :image="ExpressVueChatapp" 
+                    :title="'RealTimeChat(express)'" 
+                    :body="'FrontendとBackendが完全に独立したチャットアプリ'" 
+                    :body2="'ファイルを含むデータの受け渡しはjson形式で行っており、チャットイベントの検知はsocket.ioを使用しています。'"
+                    :url="'https://github.com/ryfiiii/vue_express_chatapp_jc'"
+                    :github="'https://github.com/ryfiiii/vue_express_chatapp_jc'"
+                    :skills="['Express', 'Vue.js', 'TypeScript', 'socket.io', 'MySQL', 'Prisma']">
                 </Production>
                 <Production 
                     :image="Laravel_Stripe_Shop" 
@@ -59,6 +59,15 @@
                     :url="'https://ryfiii-blog.netlify.app/'"
                     :github="'https://github.com/ryfiiii/vue_blog_jc'"
                     :skills="['Vue.js', 'Sass', 'MicroCMS']">
+                </Production>
+                <Production 
+                    :image="RealtimeChat" 
+                    :title="'RealtimeChat(Laravel)'"
+                    :body="'LINEのようにリアルタイムでやり取りができるチャットアプリ'"
+                    :body2="'PusherとLaravel Echoを活用して、ユーザー間のリアルタイムな対話を可能にし、且つデータベースに情報を保存し永続化を実現しています。'"
+                    :url="'https://github.com/ryfiiii/ChatApp_VuexLaravel'"
+                    :github="'https://github.com/ryfiiii/ChatApp_Vue_Laravel_jc'"
+                    :skills="['Vue.js', 'Laravel', 'Pusher', 'Laravel Echo', 'Sass', 'MySQL']">
                 </Production>
                 <Production 
                     :image="ExpressTsRestapi" 
@@ -115,6 +124,7 @@ import VueLaravelTodo from "@/assets/images/creation/Vue_Laravel_TodoApp.png"
 import RealtimeChat from "@/assets/images/creation/RealtimeChat.png"
 import Laravel_Stripe_Shop from "@/assets/images/creation/laravel_stripe_shop.png"
 import ExpressTsRestapi from "@/assets/images/creation/express-ts-restapi.png"
+import ExpressVueChatapp from "@/assets/images/creation/express_vue_chatapp.png"
 </script>
 
 <style scoped lang="scss">
