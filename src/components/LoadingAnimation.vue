@@ -19,9 +19,6 @@
     background-color: rgb(92, 180, 232);
     width: 100%;
     height: 100vh;
-    position: absolute;
-    transition: opacity 1s;
-    z-index: 100;
 }
 
 /*-------------------------------------*/
