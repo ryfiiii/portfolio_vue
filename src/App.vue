@@ -28,7 +28,7 @@ onMounted(() => {
 
     setTimeout(() => {
       isLoading.value = false
-    }, 2000)
+    }, 1300)
   }
 })
 
@@ -42,7 +42,7 @@ const deleteSessionStorage = () => {
 <style scoped>
 .fade-enter-active, .fade-leave-active {
    will-change: opacity;
-   transition: opacity 1s;
+   transition: opacity 0.75s;
 }
 
 .fade-enter, .fade-leave-to {
