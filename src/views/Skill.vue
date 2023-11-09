@@ -149,11 +149,29 @@
                     <div class="skill-section">
                         <div class="interest-block">
                             <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+                                <h2>React</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
+                                <h2>Next.js</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" />
+                                <h2>Nuxt.js</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg">
                                 <h2>TailwindCss</h2>
                             </div>
                         </div>
-
                         <div class="interest-block">
                             <div class="text">
                                 <img
@@ -161,12 +179,26 @@
                                 <h2>TypeScript</h2>
                             </div>
                         </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                                <h2>Java</h2>
+                            </div>
+                        </div>
+                        <div class="interest-block">
+                            <div class="text">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+                                <h2>SpringBoot</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </SlideInRight>
 
-        <SlideInLeft>
+        <!-- <SlideInLeft>
             <div class="interest">
                 <h1>興味がある</h1>
                 <div class="oowaku">
@@ -193,7 +225,7 @@
                     </div>
                 </div>
             </div>
-        </SlideInLeft>
+        </SlideInLeft> -->
     </section>
 </template>
 
