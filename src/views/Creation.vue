@@ -84,7 +84,7 @@
                     :body="'OpenWeatherApiから天気を取得し、対応した背景に更新するアプリ'" 
                     :body2="'　'"
                     :url="'https://ryfiii-weatherapp.netlify.app/'"
-                    :github="'https://github.com/ryfiiii/weatherapp_jc'"
+                    :github="'https://github.com/ryfiiii/weatherapp'"
                     :skills="['JavaScript', 'HTML', 'CSS']">
                 </Production>
                 <!-- <Production 
