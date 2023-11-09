@@ -21,7 +21,7 @@
                     :body="'ログイン機能、文章・画像・タグ投稿機能、タグ検索機能、投稿編集・削除機能を実装した簡易版Instagram。読みやすいコードを意識しながらコーディングし、デプロイまで行いました。'" 
                     :body2="'sample@sample.com / sample123 でログインできます'"
                     :url="'http://ryfiii.ddo.jp/'"
-                    :github="'https://github.com/ryfiiii/PicShare_jc'"
+                    :github="'https://github.com/ryfiiii/PicShare'"
                     :skills="['Laravel', 'BootStrap', 'AWS', 'Linux']">
                 </Production>
                 <Production 
@@ -30,16 +30,16 @@
                     :body="'Vue.js3の練習用に作成しました。'" 
                     :body2="'ロードアニメーションや切り替えアニメーションを実装しています。'"
                     :url="'https://vue-sampleinc-website.netlify.app/'"
-                    :github="'https://github.com/ryfiiii/vue_samplesite_jc'"
+                    :github="'https://github.com/ryfiiii/vue_samplesite'"
                     :skills="['Vue.js', 'Sass']">
                 </Production>
                 <Production 
                     :image="ExpressVueChatapp" 
-                    :title="'RealTimeChat(express)'" 
+                    :title="'RealtimeChat(express)'" 
                     :body="'FrontendとBackendが完全に独立したチャットアプリ'" 
                     :body2="'ファイルを含むデータの受け渡しはjson形式で行っており、チャットイベントの検知はsocket.ioを使用しています。'"
-                    :url="'https://github.com/ryfiiii/vue_express_chatapp_jc'"
-                    :github="'https://github.com/ryfiiii/vue_express_chatapp_jc'"
+                    :url="'https://github.com/ryfiiii/vue_express_chatapp'"
+                    :github="'https://github.com/ryfiiii/vue_express_chatapp'"
                     :skills="['Express', 'Vue.js', 'TypeScript', 'socket.io', 'MySQL', 'Prisma']">
                 </Production>
                 <Production 
@@ -48,7 +48,7 @@
                     :body="'購入したブログのみを閲覧できる、ブログショッピングアプリです。'" 
                     :body2="'決済システムにはStripe、ブログにはMicroCMSを使用しています。'"
                     :url="'https://github.com/ryfiiii/Laravel_Stripe_Blog/'"
-                    :github="'https://github.com/ryfiiii/Laravel_Stripe_Blog_jc'"
+                    :github="'https://github.com/ryfiiii/Laravel_Stripe_Blog'"
                     :skills="['Laravel', 'Stripe', 'MicroCMS', 'TailwindCss', 'MySQL']">
                 </Production>
                 <Production 
@@ -57,7 +57,7 @@
                     :body="'Vue.jsとMicroCMSを組み合わせて、ブログサイトを作成しました。'" 
                     :body2="'Axiosを使用して、MicroCMSで作成したブログを取得しています。'"
                     :url="'https://ryfiii-blog.netlify.app/'"
-                    :github="'https://github.com/ryfiiii/vue_blog_jc'"
+                    :github="'https://github.com/ryfiiii/blog'"
                     :skills="['Vue.js', 'Sass', 'MicroCMS']">
                 </Production>
                 <Production 
@@ -66,7 +66,7 @@
                     :body="'LINEのようにリアルタイムでやり取りができるチャットアプリ'"
                     :body2="'PusherとLaravel Echoを活用して、ユーザー間のリアルタイムな対話を可能にし、且つデータベースに情報を保存し永続化を実現しています。'"
                     :url="'https://github.com/ryfiiii/ChatApp_VuexLaravel'"
-                    :github="'https://github.com/ryfiiii/ChatApp_Vue_Laravel_jc'"
+                    :github="'https://github.com/ryfiiii/ChatApp_VuexLaravel'"
                     :skills="['Vue.js', 'Laravel', 'Pusher', 'Laravel Echo', 'Sass', 'MySQL']">
                 </Production>
                 <Production 
@@ -75,7 +75,7 @@
                     :body="'Express, Typescript, Prismaを使用して作成した簡単なRestfulApi'" 
                     :body2="'GET/POST/PUT/DELETE それぞれのリクエストに対応しています。'"
                     :url="'https://github.com/ryfiiii/express_ts_restapi/'"
-                    :github="'https://github.com/ryfiiii/express_ts_restapi_jc'"
+                    :github="'https://github.com/ryfiiii/express_ts_restapi'"
                     :skills="['Node.js', 'Express', 'TypeScript', 'Prisma']">
                 </Production>
                 <Production 
