@@ -18,7 +18,7 @@ const props = defineProps({
   width: 100%;
   padding: 10px;
   background-color: rgb(255, 255, 255);
-  top: -230%;
+  top: -220%;
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0px 10px 18px -3px #777777;

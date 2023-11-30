@@ -14,7 +14,8 @@
             text="基礎的なプロパティを始め、FlexBoxやPositionを使用したレイアウト調整、MediaQueryを使用したレスポンシブデザイン等様々な知識を身に付けています。" />
 
           <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-            name="JavaScript" :level=4 text="基礎的な構文を始め、DOM操作/非同期処理/アロー関数等JavaScriptでよく使われる機能の知識も身に付けています。" />
+            name="JavaScript" :level=4
+            text="基礎的な構文を始め、DOM操作/非同期処理/アロー関数/npmでのライブラリ管理等、JavaScriptでよく使われる機能の知識も身に付けています。" />
 
           <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" name="Vue.js"
             :level=4
@@ -35,8 +36,8 @@
         <h1>バックエンド</h1>
         <div class="skill-section">
 
-          <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" name="PHP"
-            :level=4 />
+          <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" name="PHP" :level=4
+            text="" />
 
           <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" name="Laravel"
             :level=4 />
@@ -83,7 +84,8 @@
         <div class="oowaku">
           <div class="skill-section">
 
-            <StudyBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" name="React" />
+            <StudyBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" name="React"
+              text="useStateやuseEffect等のライフサイクルフック、コンポーネント化等基礎的な機能の理解をしています。" />
 
             <StudyBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
               name="Next.js" />
@@ -170,62 +172,6 @@ import StudyBlock from "@/components/StudyBlock.vue"
       @include flexCenter;
       flex-wrap: wrap;
       margin: 0 0 30px 0;
-
-      .skill-block {
-        @include flexCenter;
-        flex-direction: column;
-        background-color: white;
-        border-radius: 10px;
-        margin-right: 30px;
-        margin-top: 30px;
-        padding: 10px 35px;
-        box-shadow: 0px 10px 18px -3px #777777;
-        transition: transform 0.4s;
-
-        &:hover {
-          transform: scale(1.1);
-        }
-
-        .text {
-          @include flexCenter;
-          margin-bottom: 5px;
-
-          img {
-            width: 30px;
-            height: 30px;
-            margin-right: 8px;
-          }
-        }
-      }
-
-      .interest-block {
-        @include flexCenter;
-        flex-direction: column;
-        background-color: white;
-        border-radius: 10px;
-        margin-right: 30px;
-        margin-top: 30px;
-        padding-top: 4px;
-        width: 236px;
-        height: 65px;
-        box-shadow: 0px 10px 18px -3px #777777;
-        transition: transform 0.4s;
-
-        &:hover {
-          transform: scale(1.1);
-        }
-
-        .text {
-          @include flexCenter;
-          margin-bottom: 5px;
-
-          img {
-            width: 30px;
-            height: 30px;
-            margin-right: 8px;
-          }
-        }
-      }
     }
   }
 }

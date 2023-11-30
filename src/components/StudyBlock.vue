@@ -1,21 +1,26 @@
 <template>
-  <div class="interest-block">
+  <div class="interest-block" @mouseover="showModal = true" @mouseleave="showModal = false">
     <div class="text">
       <img :src="props.icon" />
       <h2>{{ props.name }}</h2>
     </div>
+    <SkillModal v-if="showModal && text" :text="props.text"></SkillModal>
   </div>
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue';
+import SkillModal from './SkillModal.vue'
+import { ref, defineProps } from 'vue';
 
 interface Props {
   icon: string;
   name: string;
+  text?: string
 }
 
 const props = defineProps<Props>();
+
+const showModal = ref(false)
 </script>
 
 <style scoped lang="scss">
