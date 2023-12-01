@@ -140,6 +140,7 @@ import StudyBlock from "@/components/StudyBlock.vue"
     margin-bottom: 60px;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
     color: white;
+    text-align: center;
   }
 
   .title {
