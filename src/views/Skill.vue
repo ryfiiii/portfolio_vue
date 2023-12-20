@@ -27,6 +27,9 @@
           <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" name="Sass"
             :level=4 text="CSSのネスト、関数や変数の使用、セレクタの使用等基礎的な知識を身に付けています" />
 
+          <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            name="TailwindCss" :level="3" text="様々なプロパティ、CSSの基礎知識、configを編集した機能の拡張、ライブラリを使用した機能の拡張等様々な知識を身に付けています。" />
+
         </div>
       </div>
     </SlideInLeft>
@@ -44,22 +47,21 @@
             text="MVC/ルーティング/マイグレーション/Blade等基礎的な機能に加え、WebSocketやBroadCast等の概念の理解、RestfulApiの構築等様々な知識を身に付けています。" />
 
           <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" name="Node.js"
-            :level=3 text="JSの基礎文法、非同期処理、モジュールの管理、Httpリクエストの受け取りとバリデーションの実装等基礎的な知識を身に付けています。" />
+            :level=4 text="JSの基礎文法、非同期処理、モジュールの管理、Httpリクエストの受け取りとバリデーションの実装等基礎的な知識を身に付けています。" />
 
           <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-            name="Exspress" :level=3
+            name="Exspress" :level=4
             text="基礎をはじめ、セッション管理、フロントエンドとの連携、RestfulApiの構築、モダンなORMの使用、MVCに準ずるディレクト構造の作成等様々な知識を身に付けています。" />
 
           <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" name="MySQL"
             :level=4 text="CRUD操作をはじめ、テーブル設計、リレーションの定義、主キー/外部キーの設定、様々なORMとの連携等幅広い知識を身に付けています。" />
-
         </div>
       </div>
     </SlideInRight>
 
     <SlideInLeft>
       <div class="tool-others">
-        <h1>ツール / その他</h1>
+        <h1>ツール / OS</h1>
         <div class="oowaku">
           <div class="skill-section">
 
@@ -75,6 +77,11 @@
             <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
               name="Windows" :level=5 text="自作PCを2台組んだ経験を生かし、OSのインストールから最適な設定、必須ドライバ/便利なソフトウェアのインストール等様々な知識を身に付けています。" />
 
+            <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" name="Linux"
+              :level=3 text="AWS上にLaravelプロジェクトの動作環境を構築しました。LEMP環境・Node.jsの導入。Apacheの設定等の知識や基礎的なコマンドの知識を身に付けています。" />
+
+            <SkillBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" name="Ubuntu"
+              :level=3 text="VMWareでUbuntuの仮想環境を構築しました。MySQL, Nginx, Node.jsの導入、Java/Vueのビルド、Nginxの設定等様々な知識を身に付けています。" />
           </div>
         </div>
       </div>
@@ -94,9 +101,6 @@
 
             <StudyBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg"
               name="Nuxt.js" text="Vue.jsの基礎機能に加え、SSRの理解、pagesディレクトリの使用方法、Vue.jsをより便利に使用する方法など知識を身に付けています。" />
-
-            <StudyBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-              name="TailwindCss" text="CSSの基礎知識、BootStrapとの違い、様々なプロパティの理解、ライブラリを使用した拡張等基礎的な知識を身に付けています。" />
 
             <StudyBlock icon="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" name="Java"
               text="基礎的な構文や型、DB接続やMVCに準じた簡単なプロジェクトの作成等基礎的な知識を身に付けています。" />
