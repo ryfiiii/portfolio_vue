@@ -148,6 +148,7 @@ import StudyBlock from "@/components/StudyBlock.vue"
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
     color: white;
     width: 80%;
+    text-align: center;
   }
 
   .title {
